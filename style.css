@@ -13,25 +13,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-.card {
-    background-color: #fff3ea;
-    border-radius: 15px;
-    box-shadow: 0px 10px #ad5b58;
-    width: 70%;
-    height: auto;
-    margin: 20px auto;
-    padding: 24px 12px;
-}
-
-.footer-gif {
-    width: 50%;
-    height: auto;
-    margin: 20px auto;
-    border-radius: 15px;
-    border: 5px outset black;
-    display: block;
-}
-
 ul, ol {
     list-style: none;
     list-style-position: inside;
@@ -40,14 +21,13 @@ ul, ol {
 
 li {
     margin: 20px 0px;
-    /* border: 2px dashed #84DCC6; */
     border-radius: 5px;  
     font-size: 20px;
     letter-spacing: 1px;
 }
 
 a {
-    /* text-decoration: none; */
+    text-decoration: none;
     color: black;
     display: block;
     padding: 8px;
@@ -56,10 +36,44 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
     color: white;
     background-color: #84DCC6;
     box-shadow: 0px 10px #cae0d0;
+    text-shadow: 0 0 4px #1c5f4e;
     letter-spacing: 1px;
     font-weight: 550;
+}
+
+.card {
+    background-color: #fff3ea;
+    border-radius: 15px;
+    box-shadow: 0px 10px #ad5b58;
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    padding: 24px 24px;
+}
+
+.footer-gif {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 5px outset black;
+    display: block;
+}
+
+.list-w-style {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+.recipe-img {
+    width: 50%;
+    height: auto;
+    margin: 0px auto;
+    display: block;
+    border-radius: 15px;
 }
